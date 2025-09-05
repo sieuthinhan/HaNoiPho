@@ -591,11 +591,7 @@ function Sidebar({ selected, setSelected, selected1 }) {
                     )}
 
                     {search && (
-                        <div
-                            className='what11'
-                            onClick={() => setSelected("Xem tiêu chí")}
-                            style={{ cursor: "pointer" }}
-                        >
+                        <div className='what11'>
                             <div className='what112'>
                                 <img src={filterimg} alt="filter" className='whatimg' />
                                 <p className='whattxt'>Xem tiêu chí</p>
