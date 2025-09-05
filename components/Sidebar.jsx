@@ -28,7 +28,7 @@ import lessimg from '../assets/less.png';
 function Sidebar({ selected, setSelected, selected1 }) {
     const [search, setSearch] = useState("");
     const [danhsach, setDanhsach] = useState(false);
-    const [thongtinchung, setThongtinchung] = useState(false);
+    const [thongtinchung, setThongtinchung] = useState(true);
     const [danhgia, setDanhgia] = useState(false);
     const [chitiet, setChitiet] = useState(false);
     const [vietdanhgia, setVietdanhgia] = useState(false);
