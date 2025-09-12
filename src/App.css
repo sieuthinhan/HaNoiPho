@@ -1432,26 +1432,27 @@
     height: auto;
     opacity: 1;
     gap: 12px;
-    padding: 16px;
+    padding-top: 16px;
     display: flex;
 
     border-bottom: #D9D9D9 1px solid;
 }
 
 .phothinimg {
-    width: 119.68911743164062px;
-    height: 110px;
+    max-width: 120px;
+    max-height: 110px;
     border-radius: 16px;
     opacity: 1;
 }
 
 .phothindes {
     width: 100%;
-    height: 100%;
+    height: auto;
     opacity: 1;
     gap: 4px;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .des1 {
@@ -1672,7 +1673,7 @@
 }
 
 .subgps1des {
-    top: -720%;
+    top: -520%;
     right: -220%;
     width: 503px;
     height: auto;
@@ -1708,8 +1709,8 @@
 }
 
 .phothinimg1 {
-    width: 191.50259399414062px;
-    height: 176px;
+    max-width: 191.50259399414062px;
+    max-height: 176px;
     border-radius: 16px;
     opacity: 1;
 }
@@ -1721,6 +1722,7 @@
     gap: 8px;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .subgps1des11 {
@@ -2125,6 +2127,10 @@
     display: flex;
 }
 
+.chatluong11>button {
+    cursor: pointer;
+}
+
 .chatluong111 {
     width: 100%;
     height: auto;
@@ -2220,8 +2226,8 @@
 }
 
 .datlai11 {
-    width: 100px;
-    height: 24px;
+    width: auto;
+    height: auto;
     opacity: 1;
     font-family: Inter;
     font-weight: 650;
@@ -2241,8 +2247,8 @@
 }
 
 .apdung11 {
-    width: 110px;
-    height: 24px;
+    width: auto;
+    height: auto;
     opacity: 1;
     font-family: Inter;
     font-weight: 650;
@@ -2251,4 +2257,21 @@
     line-height: 24px;
     letter-spacing: 0%;
     color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1500px) {
+    .phothinimg {
+        max-width: 60px;
+        max-height: 55px;
+    }
+
+    .phothinimg1 {
+        max-width: 90px;
+        max-height: 80px;
+    }
+
+    .chatluong11 {
+        width: 30%;
+    }
+    
 }

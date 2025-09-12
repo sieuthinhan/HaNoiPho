@@ -1,3 +1,4 @@
+import Ngoisao from "./Ngoisao";
 import { useState } from "react";
 import hanoiphoimg from '../assets/hanoipho.png';
 import searchimg from '../assets/search.png';
@@ -802,32 +803,8 @@ function Sidebar({ selected, setSelected, selected1 }) {
                                     </div>
                                 </div>
 
-                                <div className="chatluong11">
-                                    <button className="chatluong111">
-                                        <p>5</p>
-                                        <img src={whitestarimg} alt="whitestar" />
-                                    </button>
+                                <Ngoisao/>
 
-                                    <button className="chatluong112">
-                                        <p>4</p>
-                                        <img src={greystarimg} alt="greystar" />
-                                    </button>
-
-                                    <button className="chatluong112">
-                                        <p>3</p>
-                                        <img src={greystarimg} alt="greystar" />
-                                    </button>
-
-                                    <button className="chatluong112">
-                                        <p>2</p>
-                                        <img src={greystarimg} alt="greystar" />
-                                    </button>
-
-                                    <button className="chatluong112">
-                                        <p>1</p>
-                                        <img src={greystarimg} alt="greystar" />
-                                    </button>
-                                </div>
                             </div>
 
                             <div className="chatluong1">
@@ -835,32 +812,8 @@ function Sidebar({ selected, setSelected, selected1 }) {
                                     <p className="chatluonghead12">Chất lượng phục vụ</p>
                                 </div>
 
-                                <div className="chatluong11">
-                                    <button className="chatluong111">
-                                        <p>5</p>
-                                        <img src={whitestarimg} alt="whitestar" />
-                                    </button>
-
-                                    <button className="chatluong112">
-                                        <p>4</p>
-                                        <img src={greystarimg} alt="greystar" />
-                                    </button>
-
-                                    <button className="chatluong112">
-                                        <p>3</p>
-                                        <img src={greystarimg} alt="greystar" />
-                                    </button>
-
-                                    <button className="chatluong112">
-                                        <p>2</p>
-                                        <img src={greystarimg} alt="greystar" />
-                                    </button>
-
-                                    <button className="chatluong112">
-                                        <p>1</p>
-                                        <img src={greystarimg} alt="greystar" />
-                                    </button>
-                                </div>
+                                <Ngoisao/>
+                                
                             </div>
                         </div>
 
