@@ -549,7 +549,26 @@ function Sidebar({ selected, setSelected, selected1 }) {
                                 className='what111'
                                 style={{ backgroundColor: danhsach ? "#B9975B" : "#FFFFFF" }}
                             >
-                                <img src={angi1img} alt="angi1" className='whatimg' />
+                                {/* <img src={angi1img} alt="angi1" className='whatimg' /> */}
+                                <svg width= "60px" height= "57.551021575927734px">
+                                    <rect width= "45.250831604003906" height= "3.0121519565582275" x= "14.28px" y= "0.03px" fill="#AAC3D7"/>
+                                    <rect width= "45.1505012512207" height= "1.9760997295379639" x= "14.41px" y= "0.03px" fill="#D7E6F0"/>
+
+                                    <rect width= "20.90300941467285" height= "8.054466247558594" x= "14.25px" y= "49.53px" rx="2" fill="#AAC3D7"/>
+                                    <rect width= "18.193979263305664" height= "7.2523651123046875" x= "14.25px" y= "49.53px" rx="2" fill="#D7E6F0"/>
+                                    
+                                    <path  d="M0 26 Q 4 45 12.5 52 L 37.5 52 Q 45.5 45 50 26 Q 25 28 0 26" fill="#131426"/>
+                                    <path  d="M0 26 Q 4 45 12.5 52 L 35.5 52 Q 43.5 45 48 26 Q 25 28 0 26" fill="#023B56"/>
+
+                                    <ellipse rx="25" ry="8.5" cx="25" cy="27.5" fill="#AAC3D7"/>
+
+                                    <path  d="M30 0 Q 25 5 30 10 T 30 20 T 30 30" stroke-width= "15.65217399597168" stroke= "#F50C15" fill="none"/>
+                                    <path  d="M25 0 Q 20 5 25 10 T 25 20 T 25 30" stroke-width= "5.65217399597168" stroke= "#FFE4B0" fill="none"/>
+                                    <path  d="M35 0 Q 30 5 35 10 T 35 20 T 35 30" stroke-width= "5.65217399597168" stroke= "#FFE4B0" fill="none"/>
+
+                                    <rect width= "45.21739196777344" height= "2.673682689666748" x= "14.78px" y= "6.48px" fill="#AAC3D7"/>
+                                    <rect width= "45.050174713134766" height= "1.3702621459960938" x= "14.98px" y= "6.48px" fill="#D7E6F0"/>
+                                </svg>
                                 <p className='whattxt'>Ăn gì?</p>
                             </div>
                         </div>
