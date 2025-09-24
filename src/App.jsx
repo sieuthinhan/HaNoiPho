@@ -11,7 +11,7 @@ function App() {
 
       <Sidebar
         selected={selected}
-        setSelected={setSelected}
+        setSelected={setSelected}weerfrefwreg
 
         selected1={selected1}aasdasdsad
       />
