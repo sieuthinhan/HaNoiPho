@@ -13,7 +13,7 @@ function App() {
         selected={selected}
         setSelected={setSelected}
 
-        selected1={selected1}
+        selected1={selected1}aasdasdsad
       />
 
       <Main
